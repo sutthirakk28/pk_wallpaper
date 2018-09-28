@@ -139,13 +139,10 @@ document.oncontextmenu=new Function("return false")
                 width: 100%;
                 height: auto;
             }
-            .a20{
-                font-family: myFirstFont;
-            }
         </style>
     <div id="popup">
         <span class="button b-close"><span>X</span></span>
-        <img src="img/popup/pk.png" width="540" height="380" class="img-responsive">
+        <img src="img/popup/10-1.png" width="730" height="500" class="img-responsive">
     </div>
     <!--<div id="popup1">
         <span class="button b-close"><span>X</span></span>
@@ -302,7 +299,7 @@ document.oncontextmenu=new Function("return false")
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <?php 
-                for($i=1;$i<=169;$i++){
+                for($i=1;$i<=141;$i++){
                     echo"<div class='col-lg-4 col-sm-6'>
                     <a href='img/portfolio/fullsize/pk-$i.png' class='portfolio-box a1'>
                         <img src='img/portfolio/thumbnails/pk-$i.png' class='img-responsive' alt=''>
@@ -331,22 +328,19 @@ document.oncontextmenu=new Function("return false")
                     <h2 class="section-heading"><i class="f1 fa fa-cog fa-spin fa-2x fa-fw"></i>ติดต่อเรา<i class="f1 fa fa-cog fa-spin fa-2x fa-fw"></i></h2>
                     <hr class="primary">                    
                 </div>
-                <div class="col-lg-3 text-center">
+                <div class="col-lg-4 text-center">
                     <i class="fa fa-mobile" aria-hidden="true"></i>
                     <p class="p1">092-521-1899</p>
                 </div>
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-4 text-center">
                     <i class="fa fa-line-chart fa-3x" aria-hidden="true"></i>
-                    <p class="p1"><a href="http://line.me/ti/p/GE01RHD6dR" target="_blank">Line ID : kumong23</a> /
-                        <a href="https://line.me/R/ti/p/%40jza4105a" target="_blank" class="a20">ติดตามข่าวสาร และโปรโมชั่น</a>
-                    </p>
+                    <p class="p1"><a href="http://line.me/ti/p/GE01RHD6dR" target="_blank">Line ID : kumong23</a></p>
                 </div>
-                <div class="col-lg-3 text-center">
+                <div class="col-lg-4 text-center">
                     <i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i>
                     <p class="p1"><a href="https://www.facebook.com/Wallpaper-Home-1118602184859692/?ref=bookmarks" target="_blank">Wallpaper Home</a></p>
                 </div>
-               
-            </div>            
+            </div>
         </div>
     </section>
     
